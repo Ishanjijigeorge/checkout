@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>easycheckout | Faster Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true">
+      <div class="gradient-orb orb-a"></div>
+      <div class="gradient-orb orb-b"></div>
+      <div class="gradient-orb orb-c"></div>
+      <div class="grid-noise"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="navbar">
+        <a href="#" class="logo" aria-label="AurumOS home">
+          <span class="logo-core"></span>
+          <span class="logo-type">easycheckout</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="navPanel"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="navPanel">
+          <nav class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#footer">About</a>
+          </nav>
+          <div class="nav-actions">
+            <button class="nav-button nav-button-ghost" data-open-auth="login">Login</button>
+            <button class="nav-button nav-button-primary" data-open-auth="register">Register</button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero scroll-section">
+          <div class="hero-copy">
+            <div class="hero-pill reveal">
+              <span class="hero-pill-dot"></span>
+              More sales. Less drop-off.
+            </div>
+            <h1 class="hero-title">
+              <span class="reveal">Build Your Brand.</span>
+              <span class="reveal">Manage Orders.</span>
+              <span class="reveal">Scale Effortlessly.</span>
+            </h1>
+            <p class="hero-text reveal">
+              Speed up payment, reduce cart abandonment, and help more shoppers complete orders.
+            </p>
+            <div class="hero-actions reveal">
+              <button class="nav-button nav-button-primary hero-button" data-open-auth="register">
+                Start Free
+              </button>
+              <a class="nav-button nav-button-ghost hero-button" href="#pricing">See Plans</a>
+            </div>
+            <div class="hero-proof reveal">
+              <span>Built for modern online stores</span>
+              <div class="proof-marquee">
+                <span>Fashion</span>
+                <span>Beauty</span>
+                <span>Electronics</span>
+                <span>DTC Brands</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-frame">
+              <div class="floating-chip chip-top">1-Click Checkout Flow</div>
+              <div class="floating-chip chip-bottom">Higher conversion rate</div>
+
+              <div class="command-card">
+                <div class="command-top">
+                  <div>
+                    <p class="command-label">Checkout Dashboard</p>
+                    <h2>Help more shoppers complete checkout</h2>
+                  </div>
+                  <div class="signal-badge">Active</div>
+                </div>
+
+                <div class="command-grid">
+                  <article class="command-panel command-panel-wide">
+                    <div class="panel-header">
+                      <span>Checkout conversion</span>
+                      <span>Last 30 days</span>
+                    </div>
+                    <div class="signal-chart" aria-hidden="true">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </article>
+
+                  <article class="command-panel">
+                    <span class="stat-kicker">Conversion</span>
+                    <strong>+32%</strong>
+                    <p>Fewer steps. More completed orders.</p>
+                  </article>
+
+                  <article class="command-panel">
+                    <span class="stat-kicker">Checkout speed</span>
+                    <strong>42s</strong>
+                    <p>Quick checkout across desktop and mobile.</p>
+                  </article>
+
+                  <article class="command-panel command-panel-tall">
+                    <div class="panel-header">
+                      <span>What it fixes</span>
+                      <span>Core</span>
+                    </div>
+                    <ul class="automation-list">
+                      <li><span></span> Fewer abandoned carts</li>
+                      <li><span></span> Faster checkout completion</li>
+                      <li><span></span> Better mobile conversion</li>
+                    </ul>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="trust-band scroll-section">
+          <div class="trust-line"></div>
+          <p>Simple checkout built to increase completed purchases.</p>
+          <div class="trust-line"></div>
+        </section>
+
+        <section class="section why-section scroll-section" id="features">
+          <div class="why-shell">
+            <div class="why-intro">
+              <p class="section-kicker">Why easycheckout</p>
+              <h2>Checkout that feels faster, cleaner, and easier to trust.</h2>
+              <p>
+                Built to remove friction at the final step so more shoppers complete payment.
+              </p>
+            </div>
+
+            <div class="why-layout">
+              <article class="why-highlight">
+                <span class="why-badge">Conversion-first</span>
+                <h3>Designed to help people finish the purchase.</h3>
+                <p>
+                  Every screen is focused on one goal: getting customers from cart to payment
+                  with less hesitation.
+                </p>
+                <div class="why-metrics">
+                  <div>
+                    <strong>Fewer steps</strong>
+                    <span>Cleaner path to payment</span>
+                  </div>
+                  <div>
+                    <strong>Faster flow</strong>
+                    <span>Built for quick action</span>
+                  </div>
+                </div>
+              </article>
+
+              <div class="why-stack">
+                <article class="why-card">
+                  <span class="feature-index">01</span>
+                  <h3>Fast checkout flow</h3>
+                  <p>Short, simple screens that keep shoppers moving.</p>
+                </article>
+                <article class="why-card">
+                  <span class="feature-index">02</span>
+                  <h3>Mobile-ready</h3>
+                  <p>Smooth checkout on phone, tablet, and desktop.</p>
+                </article>
+                <article class="why-card">
+                  <span class="feature-index">03</span>
+                  <h3>Trust-first UI</h3>
+                  <p>Clear totals, secure cues, and less confusion.</p>
+                </article>
+                <article class="why-card">
+                  <span class="feature-index">04</span>
+                  <h3>More completed sales</h3>
+                  <p>Reduce drop-off and improve purchase completion.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section pricing-section scroll-section" id="pricing">
+          <div class="section-head">
+            <p class="section-kicker">Pricing</p>
+            <h2>Simple plans built for conversion.</h2>
+            <p>Start fast and scale when you need more.</p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card">
+              <p class="price-tier">Launch</p>
+              <h3>$29 <span>/ month</span></h3>
+              <p class="price-copy">For small stores upgrading checkout.</p>
+              <ul>
+                <li>Fast checkout page</li>
+                <li>Mobile optimization</li>
+                <li>Email support</li>
+              </ul>
+              <button class="nav-button nav-button-ghost price-button" data-open-auth="register">Get Started</button>
+            </article>
+
+            <article class="price-card price-card-featured">
+              <div class="featured-pill">Recommended</div>
+              <p class="price-tier">Scale</p>
+              <h3>$99 <span>/ month</span></h3>
+              <p class="price-copy">Best for brands focused on growth.</p>
+              <ul>
+                <li>Everything in Launch</li>
+                <li>Advanced checkout flows</li>
+                <li>Performance insights</li>
+                <li>Priority support</li>
+              </ul>
+              <button class="nav-button nav-button-primary price-button" data-open-auth="register">
+                Start Scaling
+              </button>
+            </article>
+
+            <article class="price-card">
+              <p class="price-tier">Sovereign</p>
+              <h3>$249 <span>/ month</span></h3>
+              <p class="price-copy">For larger brands with custom needs.</p>
+              <ul>
+                <li>Everything in Scale</li>
+                <li>Custom integrations</li>
+                <li>Dedicated onboarding</li>
+                <li>Priority success manager</li>
+              </ul>
+              <button class="nav-button nav-button-ghost price-button" data-open-auth="register">Talk to Sales</button>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer scroll-section" id="footer">
+        <div>
+          <p class="footer-brand">easycheckout</p>
+          <span class="footer-copy">Faster checkout for more completed sales.</span>
+        </div>
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <button type="button" data-open-auth="login">Login</button>
+        </div>
+      </footer>
+    </div>
+
+    <div class="auth-modal" id="authModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-auth></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+        <button class="modal-close" type="button" aria-label="Close modal" data-close-auth>
+          &times;
+        </button>
+
+        <div class="modal-switcher">
+          <button class="modal-switch active" type="button" data-auth-view="login">Login</button>
+          <button class="modal-switch" type="button" data-auth-view="register">Register</button>
+        </div>
+
+        <div class="auth-view active" data-auth-panel="login">
+          <p class="section-kicker">Welcome back</p>
+          <h2 id="authTitle">Login to easycheckout</h2>
+          <form class="auth-form">
+            <label>
+              Email
+              <input type="email" placeholder="you@brand.com" />
+            </label>
+            <label>
+              Password
+              <input type="password" placeholder="Enter your password" />
+            </label>
+            <button type="button" class="nav-button nav-button-primary form-button">Login</button>
+          </form>
+        </div>
+
+        <div class="auth-view" data-auth-panel="register">
+          <p class="section-kicker">Create account</p>
+          <h2>Start selling with easycheckout</h2>
+          <form class="auth-form">
+            <label>
+              Company
+              <input type="text" placeholder="Your store name" />
+            </label>
+            <label>
+              Work email
+              <input type="email" placeholder="founder@aurum.com" />
+            </label>
+            <label>
+              Password
+              <input type="password" placeholder="Create a password" />
+            </label>
+            <button type="button" class="nav-button nav-button-primary form-button">Create Account</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
